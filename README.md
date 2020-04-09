@@ -14,9 +14,17 @@ HTTP wrapper based on https://github.com/oklog/ulid ULID generator
 - unique id of request for tracing request inside your architecture
 
 ### why ULID ?
-sortable, short, url-safe, simple, has other implementations
+- sortable
+- short
+- url-safe
+- simple
+- has other implementations
 
 JS version : https://github.com/ulid/javascript
+
+PHP version : https://github.com/robinvdvleuten/php-ulid
+
+Python : https://github.com/valohai/ulid2
 
 ### comparison
  - UUID OSF Realization by Google corp
