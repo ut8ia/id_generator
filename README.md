@@ -13,7 +13,7 @@ HTTP wrapper based on https://github.com/oklog/ulid ULID generator
 - unique identifiers for distributed services
 - unique id of request for tracing request inside your architecture
 
-### why ULID ?
+### Why ULID ?
 - sortable
 - short
 - url-safe
@@ -26,7 +26,7 @@ PHP version : https://github.com/robinvdvleuten/php-ulid
 
 Python : https://github.com/valohai/ulid2
 
-### comparison
+### Comparison of ID formats
  - UUID OSF Realization by Google corp
   
     source : https://github.com/google/uuid
@@ -59,14 +59,14 @@ Python : https://github.com/valohai/ulid2
   
     sortable : YES
 
-### config example
+### Config example
 ```yaml
 server:
   host: "0.0.0.0" # default address
   port: 8084 # port 
 ```
 
-### examples
+### Examples
 Generate new 
 ```bash
 $  curl -X GET 0.0.0.0:8080/ 
